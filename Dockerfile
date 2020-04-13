@@ -13,4 +13,6 @@ COPY ./ .
 
 EXPOSE 3000
 
+ENV DEBUG=http,express:*
+
 CMD ["node", "./lib/server"]
