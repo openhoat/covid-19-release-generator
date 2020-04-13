@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 
 COPY ./package*.json ./.npmrc ./
 
-RUN npm config set -g production false
+RUN npm config set -g production true
 RUN npm config set loglevel warn
 
 RUN NODE_ENV=production npm ci
