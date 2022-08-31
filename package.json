@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "4.17.1",
-    "moment-timezone": "0.5.28",
+    "moment-timezone": "0.5.35",
     "pdf-lib": "1.4.1",
     "qrcode": "1.4.4"
   }
